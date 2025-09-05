@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string": "cpp"
+    },
+    "files.autoGuessEncoding":true,
+     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+     "window.restoreWindows": "none"
+}

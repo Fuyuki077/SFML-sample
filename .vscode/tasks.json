@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build SFML",
+      "type": "shell",
+      "command": "C:/Users/05454745235/Documents/Dev-Cpp 5.11 TDM-GCC x64 4.9.2 Portable/Dev-Cpp/MinGW64/bin/g++.exe",
+      "args": [
+        "main.cpp",
+        "-I", "C:/SFML/include",
+        "-L", "C:/SFML/lib",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system",
+        "-o", "main.exe",              // Biblioteca SFML System
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
